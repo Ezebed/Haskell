@@ -8,3 +8,6 @@ CC = ghc
 all:
 	$(CC) $(archivo) -o $(ejecutable)
 	./$(ejecutable)
+
+clean:
+	rm -f $(ejecutable) *.hi *.o
